@@ -1,0 +1,38 @@
+.header {
+  position: relative;
+  background-color: var(--intro-bg);
+  height: 60vh;
+
+  &__img {
+    position: relative;
+    margin-top: 24px;
+    width: 100vw;
+    display: flex;
+    place-content: center;
+    z-index: 2;
+
+    img {
+      width: 80%;
+    }
+  }
+
+  &__shape {
+    position: absolute;
+    bottom: -10px;
+  }
+}
+
+
+.intro {
+  position: relative;
+  z-index: 2;
+  text-align: center;
+  margin: -56px 24px 0;
+
+  p {
+    line-height: 20px;
+    font-size: 14px;
+    margin: 16px 16px 32px;
+  }
+
+}

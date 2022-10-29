@@ -1,1 +1,44 @@
-/* You can add global styles to this file, and also import other style files */
+@font-face {
+  font-family:'Raleway';
+  src: url(assets/fonts/raleway/Raleway-VariableFont_wght.ttf) format("opentype");
+}
+
+:root {
+--intro-bg: hsl(217, 28%, 15%);
+--main-bg: hsl(218, 28%, 13%);
+--footer-bg: hsl(216, 53%, 9%);
+--testimonials-bg: hsl(219, 30%, 18%);
+
+--linear-bg: linear-gradient(90deg, rgba(101,226,217,1) 0%, rgba(101,226,217,1) 0%, rgba(92,214,215,1) 5%, rgba(51,158,204,1) 100%);
+--button-secondary: #339ecc;
+--errors: hsl(0, 100%, 63%);
+
+--white: hsl(0, 0%, 100%);
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 14px;
+  font-family: 'Raleway', sans-serif;
+  color: var(--white);
+  background-color: var(--main-bg);
+}
+
+h1 {
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 40px;
+  letter-spacing: 1px;
+}
+
+p {
+  font-family: 'Open Sans';
+}
+
+
